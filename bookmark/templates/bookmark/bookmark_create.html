@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}Add BookMark{% endblock %}
+{% block content %}
+    <form action="" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <!--{{ form.as_t }} table로 묶어줌-->
+        <!--as_p p태그로 묶어줌-->
+
+        <input type="submit" class="btn btn-success" value="Create" />
+    </form>
+{% endblock %}

@@ -1,0 +1,12 @@
+body {
+    font-size:1rem;
+}
+header {
+    border-bottom:1px solid #d5d5d5;
+    margin-bottom:1rem;
+}
+
+.header-logo {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 2.25rem;
+}
